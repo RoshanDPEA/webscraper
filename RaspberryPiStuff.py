@@ -54,7 +54,5 @@ class MyMainApp(App):
         return kv
     
 
-
-
 if __name__ == "__main__":
     MyMainApp().run()
