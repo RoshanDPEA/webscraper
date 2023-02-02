@@ -4,6 +4,9 @@ from kivy.uix.image import Image
 from kivy.lang import Builder
 from kivy.core.window import Window
 from kivy.uix.screenmanager import ScreenManager, Screen
+
+#code for multiple windows https://www.techwithtim.net/tutorials/kivy-tutorial/multiple-screens/
+
 Builder.load_string('''
 <RootWidget>
     FloatLayout:
