@@ -17,18 +17,30 @@ Builder.load_string('''
             source: 'background.gif'
 ''')
 
+"""
 class RootWidget(FloatLayout):
     def __init__(self, **kwargs):
         super(RootWidget, self).__init__(**kwargs)
-        
+"""
 
 # copy the root widget in the other screen with differnt images
-class MainWindow(Screen):
-    pass
+class MainWindow(FloatLayout):
+    def __init__(self, **kwargs):
+        super(RootWidget, self).__init__(**kwargs)
 
 
-class SecondWindow(Screen):
-    pass
+class Window1(FloatLayout):
+    def __init__(self, **kwargs):
+        super(RootWidget, self).__init__(**kwargs)
+
+class Window2(FloatLayout):
+    def __init__(self, **kwargs):
+        super(RootWidget, self).__init__(**kwargs)
+
+class Window3(FloatLayout):
+    def __init__(self, **kwargs):
+        super(RootWidget, self).__init__(**kwargs)
+
 
 
 class WindowManager(ScreenManager):
